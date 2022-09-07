@@ -1,0 +1,15 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - numpy
+  - pandas
+  - matplotlib
+  - xarray
+  #- cartopy
+  #- seaborn
+  - bokeh
+  - pip
+  - pip:
+    - argopy 
+
